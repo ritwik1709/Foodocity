@@ -221,3 +221,13 @@ grid-template-columns: 1fr 1fr;
         grid-row: 1;
     }
 }
+
+@media(max-width:21.75em){
+    .btn,.btn:link,
+.btn:visited {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.6rem 1.2rem;
+ 
+}
+}
