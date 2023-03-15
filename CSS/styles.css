@@ -43,7 +43,9 @@ body {
 }
 
 .logo {
-  height: 2.2rem;
+  /* height: 2.2rem; */
+  height: 33rem;
+  margin-bottom: 35px;
 }
 
 .section-hero {
@@ -682,7 +684,8 @@ border-top: 1px solid #eee;
 
 .footer-logo{
   display: block;
-  margin-bottom: 3.2rem;
+  height: 33rem;
+  margin-top: -17rem;
 }
 .social-links{
   list-style: none;
