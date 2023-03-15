@@ -22,6 +22,9 @@ grid-template-columns: 1fr 1fr;
         /* 9px/16px */
         font-size:56.25% ;
     }
+    .logo{
+        margin-left: -33px;
+    }
     .grid{
         column-gap: 4.8rem;
         row-gap: 6.4rem;
@@ -53,6 +56,9 @@ grid-template-columns: 1fr 1fr;
     html{
         /* 8px/16px  */
         font-size:50% ;
+    }
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.5rem;
     }
     .hero{
         grid-template-columns: 1fr;
@@ -171,8 +177,11 @@ grid-template-columns: 1fr 1fr;
     }
 }
 
-/* below 544px (phones)*/
+/* below 544px (med phones)*/
 @media(max-width:34em){
+    .logo{
+        margin-left: -33px;
+    }
     .grid{
         row-gap: 4.8rem;
     }
@@ -222,6 +231,7 @@ grid-template-columns: 1fr 1fr;
     }
 }
 
+/* Below 348px (smaller phones) */
 @media(max-width:21.75em){
     .btn,.btn:link,
 .btn:visited {
@@ -230,4 +240,5 @@ grid-template-columns: 1fr 1fr;
   padding: 1.6rem 1.2rem;
  
 }
+
 }
